@@ -1,4 +1,4 @@
-!pip install fastai --upgrade
+
 from fastai.vision.all import *
 path=untar_data(URLs.PETS)
 fnames = get_image_files(path/'images')
